@@ -18,6 +18,16 @@
 	.box {
 		animation: scale-button .5s  ease infinite;
 	}
+
+	@keyframes scale-button {
+		0% {
+			background-color: #000;
+		}
+
+		100% {
+			background-color: red;
+		}
+	}
 }
 
 @keyframes fade {

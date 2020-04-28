@@ -1,0 +1,41 @@
+@import url(components/normalize.css);
+@import url(components/form.css);
+@import url(components/typography.css);
+@import url(components/common.css);
+
+.box {
+	width: 50px;
+	height: 50px;
+	background-color: red;
+	border-radius: 50%;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	animation: scale-button-m .5s  ease infinite;
+}
+
+@media (min-width: 768px){
+	.box {
+		animation: scale-button .5s  ease infinite;
+	}
+
+	@keyframes scale-button {
+		0% {
+			background-color: #000;
+		}
+
+		100% {
+			background-color: red;
+		}
+	}
+}
+
+@keyframes fade {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}

@@ -11,7 +11,7 @@
 	position: fixed;
 	bottom: 20px;
 	right: 20px;
-	animation: scale-button-m .5s  ease infinite;
+	animation: fade .5s  ease infinite;
 }
 
 @media (min-width: 768px){
